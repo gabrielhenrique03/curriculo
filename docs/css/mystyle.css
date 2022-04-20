@@ -1,3 +1,40 @@
 .icon-fab {
     font-size: 300%;
 }
+
+.project {
+    height: 300px;
+}
+
+.project:hover {
+    background-image: none;
+}
+
+.project:hover > .content {
+    display: flex;
+}
+
+.project .content {
+    height: 300px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(189, 187, 187);
+    border-radius: 5px;
+} 
+
+.project-imc {
+    background-image: url('../assets/img/projeto-imc.PNG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.project-analisador-de-numeros {
+    background-image: url('../assets/img/projeto-analisador-de-numeros.PNG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
